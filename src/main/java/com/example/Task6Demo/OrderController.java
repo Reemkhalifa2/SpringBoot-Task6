@@ -10,12 +10,11 @@ public class OrderController {
 
     public OrderController() {
         orders.put(1, new Order(101, "Muscat - Al Khuwair", "Pending"));
-        orders.put(2, new Order(102, "Muscat - Al Khuwair", "Pending"));
+        orders.put(2, new Order(102, "Nizwa - Farq", "complete"));
     }
 
     @PutMapping("/updateOrder/{orderId}")
     public String updateOrder(@PathVariable int orderId, @RequestParam String address, String status) {
-        orders.put(1, new Order(1, "Muscat - Al Khuwair", "Pending"));
         if (!orders.containsKey(orderId)) {
             return "Order not found";
         }
