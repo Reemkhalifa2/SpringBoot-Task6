@@ -1,5 +1,6 @@
-package com.example.Task6Demo;
+package com.example.Task6Demo.Controller;
 
+import com.example.Task6Demo.Entity.Product;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;

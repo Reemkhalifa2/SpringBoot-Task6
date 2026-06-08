@@ -1,4 +1,4 @@
-package com.example.Task6Demo;
+package com.example.Task6Demo.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,6 @@
-package com.example.Task6Demo;
+package com.example.Task6Demo.Controller;
+
+import com.example.Task6Demo.Entity.UserProfile;
 
 public class UserProfileDemo {
     public static void main(String[] args) {

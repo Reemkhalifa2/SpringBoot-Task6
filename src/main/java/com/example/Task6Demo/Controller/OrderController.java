@@ -1,5 +1,6 @@
-package com.example.Task6Demo;
+package com.example.Task6Demo.Controller;
 
+import com.example.Task6Demo.Entity.Order;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;

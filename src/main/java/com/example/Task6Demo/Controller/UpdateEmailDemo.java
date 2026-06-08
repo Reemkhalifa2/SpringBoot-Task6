@@ -1,9 +1,7 @@
-package com.example.Task6Demo;
+package com.example.Task6Demo.Controller;
 
 public class UpdateEmailDemo {
-    public static void main(String[] args) {
-        updateEmail();
-    }
+
 
     public static void updateEmail(){
         String email = "ahmed@gmail.com";
